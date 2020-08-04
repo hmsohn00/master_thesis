@@ -2,7 +2,7 @@
 The source code used for master's thesis.
 
 ### Data
-The data used for the thesis can be downloaded from [GTEx Portal](https://www.gtexportal.org/home/). We downloaded 594 subject's liver and pancreas histology images from GTEx portal. To extract tiles from one `.svs` file, `openslide` package is required. The information about the package can be found here: [Openslide Python](https://openslide.org/api/python/). Due to the size matter, the image tiles are not presented in this repository now (will be updated). 
+The data used for the thesis can be downloaded from [GTEx Portal](https://www.gtexportal.org/home/). We downloaded 594 subject's liver and pancreas histology images from GTEx portal. To extract tiles from one `.svs` file, `openslide` package is required. The information about the package can be found here: [Openslide Python](https://openslide.org/api/python/). Due to the size matter, the image tiles are not presented in this repository now. 
 
 ### Annotation model
 The jupyter notebook for creating simulated label images described in the thesis can be found in `Annotation_model` folder.
