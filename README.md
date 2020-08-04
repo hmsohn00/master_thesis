@@ -18,7 +18,7 @@ The scripts for training CycleGAN are in folder `Models/cyclegan/`. To train the
 python3 train_cyclegan.py \
   -X_path /path/to/histology/images/ \
   -Y_path /path/to/label/images/ \
-  -save_path /path/to/save/path/for/results/ \
+  -save_path /path/to/save/path/for/results/ 
 ```
 For `train_cyclegan.py`, one should define `X_path`,`Y_path`, and `save_path`. `X_path` is the path for the histology images, and `Y_path` is for the label images. `save_path` is the path for saving the generated samples or trained model during the training. Other parameters are set with default values, but users can be chosen based on their need.
 
@@ -29,7 +29,7 @@ The scripts for training U-net are in folder `Models/unet`. To train the U-net, 
 python3 train_unet.py \
   -dir_img /path/to/histology/images/ \
   -dir_mask /path/to/mask/images/ \
-  -dir_checkpoint /path/to/save/path/for/results/ \
+  -dir_checkpoint /path/to/save/path/for/results/ 
 ```
 For `train_unet.py`, one should define `dir_img`,`dir_mask`, and `dir_checkpoint`. `dir_img` is the path for the histology images, and `dir_mask` is for the aligned mask images. Note that in the path `dir_img`,`dir_mask`, the aligned images should have same file name. `save_path` is the path for saving the generated samples or trained model during the training. Other parameters are set with default values, but users can be chosen based on their need.
 
